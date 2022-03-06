@@ -36,3 +36,35 @@ p {
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 780px) {
+    .boxCardFilm {
+        width: 400px;
+        height: 200px;
+    }
+
+    .portadaImg {
+        width: 400px;
+        height: 200px;
+    }
+
+    .boxTitle {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .boxCardFilm {
+        width: 300px;
+        height: 200px;
+    }
+
+    .portadaImg {
+        width: 300px;
+        height: 200px;
+    }
+
+    .boxTitle {
+        width: 300px;
+    }
+}

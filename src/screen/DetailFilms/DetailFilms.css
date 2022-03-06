@@ -1,0 +1,209 @@
+.divGeneralDetail {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.divAux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleDiv {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.boxContainer {
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.boxImg {
+
+    width: 20%;
+    height: 500px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.imgHorizontal {
+    width: 382px;
+    height: 500px;
+    border-radius: 4px;
+}
+
+.boxDescription {
+    width: 320px;
+    height: 30%;
+}
+
+p {
+    text-align: justify;
+}
+
+.prueba {
+    margin-top: 20px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gernes {
+    margin: 0 4px 5px 0;
+    background-color: gray;
+    border-radius: 4px;
+    width: 90px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duration {
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+span {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.actorsBox {
+
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgActors {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.cardActor {
+
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.titleActors {
+    margin-top: 20px;
+}
+
+.divButton {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+}
+
+@media (max-width: 1024px) {
+    .boxContainer {
+        justify-content: space-around;
+
+    }
+}
+
+@media (max-width: 940px) {
+    .divGeneralDetail {
+        height: 100%;
+        width: 100%
+    }
+
+    .boxContainer {
+        width: 55%;
+        height: 900px;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxImg {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .imgHorizontal {
+        width: 300px;
+    }
+
+    .boxDescription {
+        height: 60%;
+        /* border: 1px solid red; */
+        margin-bottom: 20px;
+    }
+
+    .imgActors {
+        width: 120px;
+        height: 120px;
+        border-radius: 100px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 450px) {
+    .divGeneralDetail {
+        height: 100%;
+        width: 450px
+    }
+
+    .boxImg {
+        width: 140%;
+        margin-bottom: 20px;
+    }
+
+    .actorsBox {
+
+        height: 150px;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .imgActors {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        justify-content: space-around;
+    }
+
+    .cardActor {
+
+        height: 150px
+    }
+}

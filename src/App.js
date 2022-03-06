@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import DetailFilsm from "./screen/DetailFilms/DetailFilsm.jsx";
 import PrincipalScreen from "./screen/PantallaPrincipal/PrincipalScreen.jsx";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Routes>
         <Route exact path="/" element={<PrincipalScreen />} />
+        <Route exact path="/:id" element={<DetailFilsm />} />
       </Routes>
     </div>
   );

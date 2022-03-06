@@ -1,20 +1,20 @@
-.divPrincipal{
+.divPrincipal {
     width: 100%;
     background-color: black;
-    border: 1px solid 
+    border: 1px solid
 }
 
-.divSearch{
+.divSearch {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
     margin: 20px 0 20px 0;
 }
 
-.searchInput{
+.searchInput {
     width: 400px;
     height: 40px;
     border-radius: 4px;
@@ -22,13 +22,13 @@
     margin-bottom: 10px;
 }
 
-.searchInput::placeholder{
+.searchInput::placeholder {
     color: white;
     font-size: 15px;
     font-weight: bold;
 }
 
-.buttonSearch{
+.buttonSearch {
     width: 100px;
     height: 34px;
     background-color: red;
@@ -36,7 +36,7 @@
     font-weight: bold;
 }
 
-.divFilms{
+.divFilms {
     margin-top: 30px;
     /* border: 1px solid red; */
     width: 70%;
@@ -44,4 +44,16 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+}
+
+@media (max-width: 780px) {
+    .searchInput {
+        width: 200px;
+        height: 30px
+    }
+
+    .buttonSearch {
+        width: 60px;
+        height: 25px
+    }
 }
