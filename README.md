@@ -1,6 +1,6 @@
-<h1>Examen de ingreso Frontend Aeromexico</h1>
+<h1>Examen de ingreso Frontend Claro Video</h1>
 
-## Proyecto de Harry Potter
+## Proyecto de Calro Video APP
 
 Instrucciones:
 
